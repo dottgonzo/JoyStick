@@ -44,7 +44,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-export class JoyStick {
+export default class JoyStick {
     constructor(objContainer, configuration) {
         this.StickStatus = {
             xPosition: 0,

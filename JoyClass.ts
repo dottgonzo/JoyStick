@@ -65,7 +65,7 @@ export type JoyStickParameters = {
   autoReturnToCenter?: boolean;
 };
 
-export class JoyStick {
+export default class JoyStick {
   StickStatus: StickStatus = {
     xPosition: 0,
     yPosition: 0,
