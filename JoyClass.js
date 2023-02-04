@@ -108,8 +108,8 @@ export default class JoyStick {
         this.circumference = 2 * Math.PI;
         this.internalRadius =
             (this.canvas.width - (this.canvas.width / 2 + 10)) / 2;
-        this.maxMoveStick = this.internalRadius + 5;
-        this.externalRadius = this.internalRadius + 30;
+        this.maxMoveStick = this.internalRadius * 1.1;
+        this.externalRadius = this.internalRadius * 1.5;
         this.centerX = this.canvas.width / 2;
         this.centerY = this.canvas.height / 2;
         this.directionHorizontalLimitPos = this.canvas.width / 10;
